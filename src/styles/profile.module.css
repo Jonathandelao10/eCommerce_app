@@ -7,33 +7,6 @@
     align-items: center;
 }
 
-.navbar {
-    width: 100%;
-    background-color: skyblue;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-}
-
-.homeButton {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
-.homeImage {
-    width: 30px; /* Adjusts the size of the image */
-    height: 30px;
-    object-fit: contain; /* Ensures the image maintains its aspect ratio */
-    margin-right: 10px; /* Adds space after the icon */
-    margin-left: 20px;
-}
-
 .profileSection {
     display: flex;
     flex-direction: column;

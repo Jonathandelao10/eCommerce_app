@@ -13,12 +13,7 @@ const Product = () => {
 
     return (
         <div className={styles.container}>
-            {/* Navbar */}
-            <div className={styles.navbar}>
-                <button className={styles.homeButton} onClick={() => window.location.href = '/'}>
-                    <img className={styles.homeImage} src={homeIcon} alt="Home" />
-                </button>
-            </div>
+            
 
             {/* Product Section */}
             <div className={styles.productSection}>
