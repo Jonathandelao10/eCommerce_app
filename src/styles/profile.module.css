@@ -1,0 +1,70 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.homeButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.homeImage {
+    width: 30px; /* Adjusts the size of the image */
+    height: 30px;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    margin-right: 10px; /* Adds space after the icon */
+    margin-left: 20px;
+}
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 80%;
+}
+
+.userName {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders, .reviews {
+    width: 45%;
+}
+
+.orders ul, .reviews ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orders li, .reviews li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
