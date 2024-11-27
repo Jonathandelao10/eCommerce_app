@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../styles/product.module.css';
-const homeIcon = process.env.PUBLIC_URL + '/assets/homepageIcon.png';
 
 const Product = () => {
     const product = {

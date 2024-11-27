@@ -12,6 +12,11 @@ const NavigationBar = () => {
                         alt="Home" 
                         className={styles.homeImage}  />
                 </button>
+                <button className={styles.homeButton} onClick={() => window.location.href = '/profile'}>
+                    <img src="../assets/profile-pic.png" // Path to the image in the public folder
+                        alt="Profile" 
+                        className={styles.homeImage}  />
+                </button>
             </div>
         </div>
     );

@@ -1,0 +1,26 @@
+.productSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    width: 80%;
+    gap: 20px;
+}
+
+.gridContainer {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 1fr); /* 4 columns of equal width */
+    grid-template-rows: repeat(2, 1fr);  /* 3 rows of equal height */
+    margin: 50px;
+    gap: 50px;
+    
+}
+
+.productImage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

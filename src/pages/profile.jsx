@@ -1,5 +1,4 @@
 import React from 'react';
-import NavigationBar from '../components/navigation-bar';
 import styles from '../styles/profile.module.css';
 
 const Profile = () => {
