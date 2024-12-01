@@ -1,0 +1,3 @@
+C:\Users\bepal\source\repos\product_browsing\eCommerce_app\src\pages\obj\Debug\product_browsing.njsproj.AssemblyReference.cache
+C:\Users\bepal\source\repos\product_browsing\eCommerce_app\src\pages\obj\Debug\product_browsing.njsproj.CoreCompileInputs.cache
+C:\Users\bepal\source\repos\product_browsing\eCommerce_app\src\pages\bin\Microsoft.NodejsTools.WebRole.dll

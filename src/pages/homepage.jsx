@@ -7,7 +7,7 @@ const HomePage = () => {
     return(
         <div className={styles.productImage}>
             <div className={styles.gridContainer}>
-                <button onClick={() => window.location.href = '/product'}>   
+                <button onClick={() => window.location.href = '/product_browsing'}>   
                     <img src="../assets/electronics.png" alt="Books" />
                 </button>
                 <img src="../assets/clothing.png" alt="Product" />
