@@ -22,7 +22,7 @@ const BrowsingPage = () => {
                             <button
                                 onClick={() => {
                                     if (product.isClickable) {
-                                        window.location.href = '/electronic_product';
+                                        window.location.href = '/product';
                                     }
                                 }}
                                 className={`${styles.productButton} ${!product.isClickable ? styles.disabledButton : ''}`}
