@@ -12,5 +12,5 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance, use reportWebVitals
+// To start measuring performance, use reportWebVitals
 reportWebVitals();

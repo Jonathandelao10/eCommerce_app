@@ -1,10 +1,11 @@
 const Pool = require("pg").Pool;
 const pool = new Pool({
-    user: "14806",
+    user: "postgres",
     host: 'localhost',
     database: "project_proposal",
-    password: "",
+    password: "David10",
     port: 5432,
+    //!Goliath225775
 });
 //get all users and products our database
 const getData = async () => {
