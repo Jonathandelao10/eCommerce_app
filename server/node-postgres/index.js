@@ -13,8 +13,9 @@ app.use(cors({
 }));
 app.use(express.json());
 
+// get data
 app.get('/', (req, res) => {
-  merchant_model.getProducts()
+  merchant_model.getData()
     .then(response => {
       res.status(200).send(response);
     })
@@ -22,6 +23,7 @@ app.get('/', (req, res) => {
       res.status(500).send(error);
     });
 });
+
 
 app.listen(port, () => {
   console.log(`App running on port ${port}.`);
