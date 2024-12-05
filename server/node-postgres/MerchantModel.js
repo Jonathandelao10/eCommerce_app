@@ -3,7 +3,7 @@ const pool = new Pool({
     user: "14806",
     host: 'localhost',
     database: "project_proposal",
-    password: "!Goliath225775",
+    password: "",
     port: 5432,
 });
 //get all users and products our database
