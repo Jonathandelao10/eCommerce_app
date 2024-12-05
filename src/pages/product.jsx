@@ -3,11 +3,11 @@ import styles from '../styles/product.module.css';
 
 const Product = () => {
     const product = {
-        id: "P12345",
+        id: "P12",
         seller: "TechWorld",
         rating: 4.5,
         review: "This is an amazing product. Highly recommend!",
-        image: "https://via.placeholder.com/150" // Example placeholder image URL
+        image: '../assets/wireless headphones.png' // Example placeholder image URL
     };
 
     return (
